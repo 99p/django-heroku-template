@@ -3,4 +3,6 @@
 this is my django project template with docker.
 
 ## usage:
-    sudo docker-compose run -u 1000:1000 web django-admin startproject config .
+    heroku create
+    heroku stack:set container
+    git push heroku master
